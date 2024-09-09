@@ -1,0 +1,92 @@
+1. Berikut adalah 5 distro Linux yang populer dan terkenal:
+Ubuntu, Debian, Fedora, openSUSE, Arch Linux
+
+2. Berikut adalah 3 kelebihan Linux dibandingkan dengan Windows:
+
+1. **Keterbukaan dan Kode Sumber**: Linux adalah sistem operasi yang berbasis kode sumber terbuka, yang berarti banyak orang dapat melihat, memodifikasi, dan berkontribusi ke dalam pengembangan perangkat lunaknya. Ini memberikan kebebasan dan kemampuan untuk menyesuaikan sistem sesuai kebutuhan Anda.
+
+2. **Keamanan**: Linux memiliki keamanan yang lebih baik dibandingkan Windows. Karena kode sumber terbuka, orang dapat memeriksa dan mengevaluasi keamanan sistem. Selain itu, Linux memiliki banyak fitur keamanan yang dikelola oleh komunitas, seperti firewall, antivirus, dan sistem pencegahan serangan.
+
+3. **Kostumisasi**: Linux memungkinkan Anda untuk melakukan kostumisasi sistem sesuai kebutuhan Anda. Anda dapat menginstal aplikasi, mengubah tema, dan mengkonfigurasi sistem sesuai dengan preferensi Anda. Ini membuat Linux lebih unik dan menarik bagi pengguna yang ingin memiliki kontrol penuh atas sistem mereka.
+
+3. Berikut adalah 10 perusahaan besar yang tergabung dalam Linux Foundation:
+
+1. IBM
+2. Red Hat
+3. Canonical (Ubuntu)
+4. Oracle
+5. Microsoft
+6. Google
+7. Facebook
+8. Intel
+9. ARM
+10. SAP
+
+Linux Foundation adalah organisasi non-profit yang didirikan pada tahun 1998 untuk mendukung pengembangan dan penggunaan Linux. Perusahaan-perusahaan ini membantu Linux Foundation dalam mengembangkan dan menyebarkan proyek-proyek open-source yang berkaitan dengan Linux.
+
+4. Berikut adalah beberapa command yang dapat digunakan untuk melakukan navigation dalam Linux:
+
+1. `pwd`: Command ini menampilkan direktori kerja saat ini (current working directory).
+
+2. `cd <directory>`: Command ini digunakan untuk berpindah ke direktori tertentu. Misalnya, `cd /home/user` akan memindahkan Anda ke direktori `/home/user`.
+
+3. `ls`: Command ini menampilkan isi direktori saat ini. Anda dapat menambahkan opsi seperti `-l` untuk melihat detail file dan direktori, `-a` untuk melihat file dan direktori yang dimulai dengan titik (hidden), dan `-h` untuk melihat ukuran file dalam format yang lebih mudah dibaca.
+
+4. `mkdir <directory>`: Command ini digunakan untuk membuat direktori baru. Misalnya, `mkdir new_folder` akan membuat direktori bernama `new_folder`.
+
+5. `rmdir <directory>`: Command ini digunakan untuk menghapus direktori kosong. Misalnya, `rmdir empty_folder` akan menghapus direktori bernama `empty_folder`.
+
+6. `rm <file>`: Command ini digunakan untuk menghapus file. Anda dapat menambahkan opsi `-r` untuk menghapus direktori dan semua isinya. Misalnya, `rm file.txt` akan menghapus file bernama `file.txt`.
+
+7. `mv <source> <destination>`: Command ini digunakan untuk memindahkan atau mengubah nama file dan direktori. Misalnya, `mv old_file.txt new_file.txt` akan mengubah nama file `old_file.txt` menjadi `new_file.txt`.
+
+8. `cp <source> <destination>`: Command ini digunakan untuk menyalin file dan direktori. Misalnya, `cp file.txt copy_of_file.txt` akan menyalin file `file.txt` menjadi `copy_of_file.txt`.
+
+5. Untuk berpindah langsung ke direktori `Credential` yang berada dalam susunan `Home -> Document -> Credential`, dapat menggunakan perintah berikut:
+```bash
+cd ../../Document/Credential
+```
+Perintah `cd` ini berarti "change directory" dan `../../Document/Credential` adalah jalur relatif ke direktori `Credential` dari direktori saat ini.
+dapat menggunakan titik dua (`..`) untuk menunjukkan direktori induk. Dalam contoh ini, `../../` berarti berpindah dua direktori ke atas (dari `Picture` ke `Home`) dan kemudian berpindah ke direktori `Document`. Setelah itu, Anda dapat langsung mengetik nama direktori `Credential` untuk berpindah ke direktori tersebut.
+
+6. Command yang digunakan untuk mengetahui direktori saat ini adalah pwd (print working directory).
+
+7. Perintah yang dapat digunakan untuk membuat direktori baru di Linux adalah mkdir (make directory).
+
+8. Ketika sedang melakukan editing file menggunakan nano, Kita dapat menuliskan perintah berikut untuk keluar sekaligus menyimpan perubahan file:
+Ctrl + X
+Setelah menekan Ctrl + X, nano akan meminta Kita untuk menyimpan perubahan. Untuk menyimpan perubahan, tekan Y (Yes) dan tekan Enter.
+
+9. Command yang dapat gunakan untuk melakukan copy direktori beserta isinya di Linux adalah cp -r <source> <destination>.
+Perintah cp ini berarti "copy", -r berarti "recursively" (secara rekursif), <source> adalah direktori yang akan disalin, dan <destination> adalah direktori tujuan.
+
+10. Perintah su (switch user) pada Linux digunakan untuk mengganti pengguna saat ini dengan pengguna lain yang memiliki hak akses administratif (root).
+
+11. Berikut adalah tahapan untuk membuat user baru pada Linux dengan nama Udin:
+1. Buka terminal Linux Anda.
+2. Login sebagai pengguna yang memiliki hak akses administratif (root) dengan perintah su atau sudo.
+3. Ketik perintah useradd Udin untuk membuat user baru dengan nama Udin.
+4. Setelah user dibuat, Anda akan diminta untuk membuat password untuk user Udin. Ketik password yang Anda inginkan dan tekan Enter.
+5. Ketik ulang password Anda untuk memastikan kebenaran password.
+6. User Udin sekarang telah dibuat. Anda dapat memeriksa daftar user yang ada di sistem dengan perintah cat /etc/passwd.
+
+12. Sudo (Superuser Do) adalah perintah yang digunakan di Linux untuk menjalankan perintah sebagai pengguna root (superuser) tanpa perlu keluar dari akun saat ini. Ini memberikan akses administratif ke sistem operasi.
+Beberapa kegunaan sudo antara lain:
+1.Membuat, menghapus, dan memodifikasi file dan direktori yang membutuhkan hak akses administratif.
+2.Menginstal perangkat lunak baru yang membutuhkan hak akses administratif.
+3.Mengubah konfigurasi sistem operasi.
+4.Mengatasi masalah yang memerlukan hak akses administratif.
+
+13. Command yang digunakan untuk menambahkan user kedalam sebuah group yang sudah dibuat sebelumnya di Linux adalah usermod.
+Simulasi command dengan menambahkan user Udin ke dalam group [dtt] dengan perintah berikut:
+sudo usermod -aG [dtt] Udin
+
+14. Kesalahan, "Groupdel hero, permission denied, cannot lock /etc/group; try again later," menunjukkan bahwa dell mencoba menghapus group tertentu (dalam kasus ini, disebutkan sebagai "hero") tetapi tidak memiliki izin yang cukup.
+Alasan utama kesalahan ini adalah karena izin yang di miliki saat ini tidak memungkinkan untuk menghapus group.
+
+15. RWX adalah singkatan untuk Read, Write, dan Execute, yang merupakan tiga hak akses utama yang diberikan kepada file di Linux. Setiap file di Linux memiliki atribut permission yang menentukan hak akses yang dimiliki oleh pengguna, grup, dan lainnya.
+Atribut permission terdiri dari tiga bagian:
+1.Owner: Hak akses yang dimiliki oleh pemilik file.
+2.Group: Hak akses yang dimiliki oleh anggota grup yang terkait dengan file.
+3.Other: Hak akses yang dimiliki oleh pengguna lain yang bukan pemilik file maupun anggota grup.
+
